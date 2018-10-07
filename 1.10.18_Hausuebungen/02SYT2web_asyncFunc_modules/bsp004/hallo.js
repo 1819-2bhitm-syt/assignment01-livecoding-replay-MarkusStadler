@@ -1,1 +1,0 @@
-console.log("ich bin die hallo.js - Datei");
