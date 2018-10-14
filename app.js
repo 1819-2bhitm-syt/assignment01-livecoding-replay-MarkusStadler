@@ -1,22 +1,22 @@
-// Factory Function
-function createCircle(radius) {
-    return {
-        draw: function() {
-            console.log('draw');
-        }
-    };
-}
+let x = {};
 
-const circle = createCircle(1);
-circle.draw();
+let name = '';  // single quotes
+let name = "";  // double quotes
+let name = ``;  // Backticks
 
-// Constructor Function
-function Circle(radius) {
-    console.log('this', this);
-    this.radius = radius;
-    this.draw = function() {
-        console.log('draw');
-    };
-}
+let ok = true;
+let ok = false;
 
-const another = new Circle(1);
+
+let total = 1;
+let total = 2;
+let total = 3;
+let total = 4;
+
+
+
+let x = new Object();       // Object Literal
+let name = new String();    // String Literals
+let ok = new Boolean();     // Boolean Literals
+let total = new Number();   // Number Literals
+
