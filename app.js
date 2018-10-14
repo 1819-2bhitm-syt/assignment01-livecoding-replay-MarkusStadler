@@ -1,21 +1,8 @@
-let hallo = function(str) {
-    str = "Hallo + " + str;
-};
+let x = 10;
+let y = x;
 
-let welt = "Welt";
-hallo(welt);
-console.log(welt);
+x = 20;
 
-let halloObject = function(obj) {
-    //obj.name = "Hallo " + obj.name;
-    obj = null;
-};
-
-let o = {
-    name: "Welt"
-};
-
-halloObject(o);
-
-console.log(o);
+console.log("x =",x);
+console.log("y =",y);
 
