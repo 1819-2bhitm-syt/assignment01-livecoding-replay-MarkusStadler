@@ -1,8 +1,9 @@
-let x = { value: 10};
-let y = x;
+let number = 10;
 
-x.value = 20;
+function increase(number) {
+    number++;
+}
 
-console.log("x =",x);
-console.log("y =",y);
+increase(number);
+console.log(number);
 
