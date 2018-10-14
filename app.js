@@ -8,7 +8,7 @@ Circle.name;
 Circle.length;
 Circle.constructor; // returns Function()
 Circle.call({}, 1); // to call the Circle function
-Circleapply({}, [1]);
+Circle.apply({}, [1]);
 
 // Value types are copied by their value, reference types are copied by their reference.
 // Value types in JavaScript are: String, Number, Boolean, Symbol, undefined and null
