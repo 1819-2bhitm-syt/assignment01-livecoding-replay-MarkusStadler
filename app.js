@@ -2,4 +2,8 @@ let logThis = function() {
     console.log(this);
 };
 
-logThis();
+let logThisBound = logThis.bind( {
+    vorname: "Max"
+});
+
+logThisBound();
