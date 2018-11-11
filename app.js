@@ -20,4 +20,6 @@ Schueler.prototype.getName = function() {
 };
 
 let erik = new Schueler("Erik", "Müller", "HTL Leonding");
+let susi = new Person("Susi", "Musterfrau");
 console.log(erik.getName());
+console.log(susi.getName());
