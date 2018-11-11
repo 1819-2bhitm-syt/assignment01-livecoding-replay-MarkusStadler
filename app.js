@@ -14,4 +14,4 @@ function Schueler(vorname, nachname, schule) {
 }
 
 let erik = new Schueler("Erik", "Müller", "HTL Leonding");
-console.log(erik);
+console.log(erik.getName());
