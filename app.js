@@ -1,3 +1,6 @@
-const os = require("os");
+function Person(vorname, nachname) {
 
-console.log(os.cpus());
+}
+
+let hans = new Person("Hans", "Müller");
+console.log(hans);
