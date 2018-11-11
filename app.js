@@ -15,4 +15,6 @@ let p = {
     nachname: "Müller"
 };
 
+p._proto_ = Person.prototype;
+
 console.log(p);
