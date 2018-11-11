@@ -17,4 +17,4 @@ let p = {
 
 p._proto_ = Person.prototype;
 
-console.log(p);
+console.log(p.getName());
