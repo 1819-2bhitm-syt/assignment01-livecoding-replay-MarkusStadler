@@ -7,14 +7,11 @@ Person.prototype.getName = function() {
     return this.vorname + " " + this.nachname
 };
 
-let hans = new Person("Hans", "Müller");
-// console.log(hans.getName());
+function Schueler(vorname, nachname, schule) {
+    this.vorname = vorname;
+    this.nachname = nachname;
+    this.schule = schule;
+}
 
-let p = {
-    vorname: "Erik",
-    nachname: "Müller"
-};
-
-p._proto_ = Person.prototype;
-
-console.log(p.getName());
+let erik = new Schueler("Erik", "Müller", "HTL Leonding");
+console.log(erik);
