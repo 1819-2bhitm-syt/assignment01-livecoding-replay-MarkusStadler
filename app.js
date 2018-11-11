@@ -1,9 +1,15 @@
-let logThis = function() {
-    console.log(this);
+let logMessage = function(a, b) {
+    console.log(this, a, b);
 };
 
-let logThisBound = logThis.bind( {
+logMessage.call({
+    vorname: "Max"
+}, 3, 4);
+
+/*
+let logThisBound = logThis.bind({
     vorname: "Max"
 });
 
 logThisBound();
+ */
